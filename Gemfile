@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
+gem 'puma'
 
 gem 'rails', '~> 7.1.5'
 gem 'sprockets-rails'
