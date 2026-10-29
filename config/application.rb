@@ -35,7 +35,7 @@ module Rottenpotatoes
 
     # Configure sensitive parameters which will be filtered from the log file.
     config.filter_parameters += [:password]
-    config.web_console.development_only = false
+    config.web_console.development_only = false if Rails.env.development?
     # Enable the asset pipeline
     # config.assets.enabled = true
 
